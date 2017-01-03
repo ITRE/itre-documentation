@@ -1,0 +1,16 @@
+{
+  "name": "test-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dCremins/test-a.git",
+  "author": "Devin Cremins <drcremin@ncsu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "markdown-toc": "^1.0.3"
+  }
+}
