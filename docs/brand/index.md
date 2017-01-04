@@ -2,8 +2,20 @@
 {% import "../templates/typography.html" as type %}
 {% import "../templates/alert.html" as callout %}
 {% import "../templates/image-download.html" as download %}
+{% import "../templates/toc.html" as toc %}
 
 # Branding and Assets
+
+{{ toc.table({
+  'title':'Branding and Assets',
+  'list':{
+    'NC State University': 'nc-state-university',
+    'Colors':'colors',
+    'Typography':'typography',
+    'Logo':'logo',
+    'Materials':'materials'
+  }
+  }) }}
 
 To maintain a consistent institute brand, ITRE logos and templates should be used for all institute materials.
 

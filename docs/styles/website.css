@@ -34,6 +34,13 @@
   display: flex;
   flex-flow: row wrap; }
 
+.toc {
+  float: right;
+  margin: 0 0 20px 15px; }
+
+.markdown-section table {
+  width: auto; }
+
 .swatch {
   display: flex; }
   .swatch .color {
@@ -80,6 +87,14 @@
 
 .garamond {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
+
+.markdown-section h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-bottom: .5em; }
+
+.markdown-section h3 {
+  font-size: 1.2em; }
 
 .images {
   display: flex;

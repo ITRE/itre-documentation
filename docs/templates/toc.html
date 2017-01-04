@@ -1,0 +1,17 @@
+{% macro table(contents) %}
+<div class="component toc">
+<p><strong>{{contents.title}}</strong></p>
+<ul>
+{% for head, text in contents.list %}
+<li><a href="#{{text.link}}">{{head}}</a></li>
+{% if 'sub' in text %}
+<ul>
+{% for title, item in text.sub %}
+<li><a href="#{{item}}">{{title}}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+{% endmacro %}

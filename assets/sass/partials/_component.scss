@@ -9,3 +9,12 @@
   display: flex;
   flex-flow: row wrap;
 }
+
+.toc {
+  float: right;
+  margin: 0 0 20px 15px;
+}
+
+.markdown-section table {
+  width: auto;
+}
